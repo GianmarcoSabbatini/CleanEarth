@@ -109,12 +109,12 @@ a {
     }
 
     .container-descrizione h1 {
-        font-size: 40px;
+        font-size: 30px;
         padding-bottom: 16px;
     }
 
     .container-descrizione p {
-        font-size: 24px;
+        font-size: 20px;
         padding-bottom: 16px;
     }
 
@@ -128,10 +128,10 @@ a {
     }
 
     .container-menu {
-        display: flex;
+        display: none;
         position: absolute;
         top: 10%;
-        width: 100%
+        width: 100%;
     }
 
     .container-navigation {
@@ -144,7 +144,7 @@ a {
     }
     
     .container-menu ul {
-        background-color: #ffffffcf;
+        background-color: #ffffff;
         border-radius: 8px;
         align-content: center;
         height: 100%;
@@ -241,4 +241,81 @@ a {
 }
 #icona-albero > img {
     padding-left: 20px;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        margin: 50px 0 0 0;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        
+     }
+
+
+     .main-testo {
+        width: 100%;
+     }
+
+     .main-testo h1 {
+        font-size: 28px;
+        padding: 10px 15px;
+     }
+
+     .main-testo p {
+        margin: 10px 15px;
+        padding: 10px 15px;
+        font-size: 20px;
+     }
+
+     .main-icone {
+        width: 100%;
+        text-align: center;
+        justify-items: center;
+        margin-top: 24px;
+     }
+
+     #icona-albero {
+        background-color: #E8F6C5;
+        border-radius: 8px;
+        display: flex;
+        height: 84px;
+        align-items: center;
+        margin: 20px;
+        width: 80%;
+    }
+    
+    #icona-mare {
+        background-color: #CCF6FF;
+        border-radius: 8px;
+        display: flex;
+        height: 84px;
+        align-items: center;
+        margin: 20px;
+        width: 80%;
+    }
+
+
+
+    #icona-albero > p {
+        padding-left: 32px;
+        font-size: 24px;
+    }
+    
+    #icona-mare > p {
+        padding-left: 32px;
+        font-size: 24px;
+        text-wrap: nowrap;
+
+    }
+
+
+    
 }
