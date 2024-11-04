@@ -92,22 +92,7 @@ a {
     cursor: pointer;
 }
 
-.menu-icon {
-    border: 1px solid red;
-    padding: 20px 20px;
-    position: relative;
-    float: right;
-    cursor: pointer;
-}
 
-.menu-icon .nav-icon {
-    background-color: grey;
-    display: block;
-    width: 18px;
-    height: 2px;
-    position: relative;
-    transition: background-color .2s ease-out;
-}
 
 
 
