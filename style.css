@@ -378,3 +378,44 @@ a {
     cursor: pointer;
 }
 
+
+
+.form {
+    background-color: #ffffff;
+    margin: 0;
+    box-sizing: border-box;
+    justify-items: center;
+    margin: 30px 0;
+}
+
+.container-form {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: center;
+}
+
+.container-form-descrizione {
+   border: 1px solid red;
+    width: 50%;
+    height: auto;
+    padding: 50px;
+    color: #404040;
+}
+
+.container-form-descrizione h1 {
+    font-size: 40px;
+    font-weight: bold; 
+}
+
+.container-form-descrizione p {
+    font-size: 24px;
+}
+
+.container-form-input {
+    border: 1px solid red;
+    width: 50%;
+    height: auto;
+    padding: 50px;
+}
