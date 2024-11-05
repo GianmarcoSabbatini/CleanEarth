@@ -385,11 +385,11 @@ a {
     margin: 0;
     box-sizing: border-box;
     justify-items: center;
-    margin: 30px 0;
+    margin: 30px 15%;
+    overflow-wrap: anywhere;
 }
 
 .container-form {
-    border: 1px solid red;
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -397,7 +397,6 @@ a {
 }
 
 .container-form-descrizione {
-   border: 1px solid red;
     width: 50%;
     height: auto;
     padding: 50px;
@@ -414,11 +413,16 @@ a {
 }
 
 .container-form-input {
-    border: 1px solid red;
     width: 50%;
     height: auto;
-    padding: 50px;
     align-content: center;
+}
+
+.container-form ul {
+    display: flex;
+    flex-flow: wrap;
+    float: left;
+    padding-left: 0;
 }
 
 .container-form ul li {
@@ -426,21 +430,51 @@ a {
     font-weight: bold;
     color: #404040;
     font-size: 16px;
+    padding-bottom: 16px;
+}
+
+.container-form-input > form > ul > li:nth-child(2) {
+    padding-left: 16px;
 }
 
 .container-form label{
     display: block;
-}
-
-input {
-    border: 1px solid #6A994E;
-    width: 326px;
-    height: 59px;
+    padding-bottom: 8px;
 }
 
 #messaggio {
     resize: none;
     width: 676px;
+    min-width: fit-content;
     height: 136px;
     border: 1px solid #6A994E;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#pulsante-form {
+    width: 210px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0C5073;
+    background-color: #A7C957;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+#nomecognome, #Email {
+    border: 1px solid #6A994E;
+    width: 326px;
+    height: 59px;
+    font-size: 24px;
+}
+
+#pulsante-form:hover {
+    background-color: #0C5073;
+    transition: 0.5s ease-out;
+    color: #ffffff;
+    cursor: pointer;
 }
