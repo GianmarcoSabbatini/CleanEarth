@@ -529,3 +529,40 @@ a {
     box-sizing: border-box;
 }
 }
+
+
+
+
+footer {
+    background-color: #ebebeb;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 4px 24px;
+}
+
+footer > div {
+    align-content: center;
+}
+
+footer > div > ul {
+    padding-left: 0;
+}
+
+@media only screen and (max-width: 800px) {
+
+    footer {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+    footer div ul li {
+        padding: 4px 10px;
+    }
+
+}
