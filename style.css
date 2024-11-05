@@ -75,15 +75,12 @@ a {
     font-size: 23px;
     background-color: #A7C957;
     border: 0;
-}
-
-.container-descrizione button {
     color: #0C5073;
     font-size: 20px;
     font-weight: bold;
     padding: 8px 16px;
-}
 
+}
 
 .container-descrizione button:hover {
     background-color: #0C5073;
@@ -312,10 +309,72 @@ a {
     #icona-mare > p {
         padding-left: 32px;
         font-size: 24px;
-        text-wrap: nowrap;
-
-    }
-
-
-    
+    }    
 }
+
+
+.projects {
+    background-image: linear-gradient(#0B620E, #326134);
+    text-align: center;
+}
+
+.projects div h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 0;
+    padding: 24px 0;
+    font-size: 40px;
+}
+
+.container-schede {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 443px);
+    column-gap: 20px;
+    margin-bottom: 30px;
+    justify-content: center;
+     
+}
+
+.project-item{
+    background-color: #ffffff;
+    width: min-content;
+    height: min-content;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.project-item p {
+    text-align: left;
+    padding: 4px 16px;
+}
+
+.project-item h2 {
+    text-align: left;
+    padding: 2px 16px;
+    margin-bottom: 2px;
+}
+
+
+.projects button {
+    height: 60px;
+    border-radius: 8px;
+    font-size: 23px;
+    background-color: #A7C957;
+    border: 0;
+    color: #0C5073;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 16px;
+    margin-bottom: 24px;
+
+}
+
+.projects button:hover {
+    background-color: #0C5073;
+    transition: 0.5s ease-out;
+    color: #ffffff;
+    cursor: pointer;
+}
+
