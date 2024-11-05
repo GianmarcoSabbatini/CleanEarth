@@ -10,26 +10,23 @@
 <body>
     <header>
         <div class="container">
-            <div class="container-navigation">
-            <div class="container-logo">
-                <a href="index.html"><img src="./assets/immagini/logo.png" alt="Logo di Clean earth"></a>
-            </div>
-            <div class="container-menu">
+            <header class="header">
+                <a href="" class="logo"><img src="./assets/immagini/logo.png" alt=""></a>
+                <input class="menu-btn" type="checkbox" id="menu-btn" />
+                <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
                 <ul class="menu">
-                    <a href=""><li>About Us</li></a>
-                    <a href=""><li>Our Projects</li></a>
-                    <a href=""><li>Contact US</li></a>
+                  <li><a href="#work">About Us</a></li>
+                  <li><a href="#about">Our projects</a></li>
+                  <li><a href="#careers">Contact us</a></li>
                 </ul>
-            </div>
-            </div>
-            <div class="container-descrizione">
+              </header>
+              <div class="container-descrizione">
                 <h1>Salviamo il pianeta, insieme!</h1>
                 <p>La nostra attività si occupa di progetti a impatto ambientale come riforestazione e 
                     pulizia degli oceani, coinvolgendo volontari da tutto il mondo!
                 </p>
                 <a href=""><button type="button">Diventa Volontario</button></a>
 
-            </div>
         </div>
         
     </header>
@@ -94,7 +91,7 @@
                         <ul>
                             <li>
                                 <label for="nomecognome">Nome e Cognome</label>
-                                <input type="text" name="nomecognome" id="nomecognome" required>
+                                <input type="text" name="nomecognome" id="nomecognome"required>
                             </li>
                             <li>
                                 <label for="Email">Email</label>
